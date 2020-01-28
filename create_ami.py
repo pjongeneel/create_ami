@@ -4,6 +4,7 @@ import argparse
 import time
 import random
 
+# Welcome
 
 def get_latest_ecs_optimized_ami(region):
     ssm_client = boto3.client('ssm', region_name=region)
